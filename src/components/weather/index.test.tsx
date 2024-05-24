@@ -3,7 +3,6 @@ import fetchMock from "jest-fetch-mock";
 import userEvent from "@testing-library/user-event";
 import Weather from '.';
 
-
 describe("Weather Component", () => {
     fetchMock.enableMocks();
     
